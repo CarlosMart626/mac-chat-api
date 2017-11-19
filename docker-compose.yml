@@ -1,0 +1,11 @@
+chat-app:
+  restart: always
+  build: ./chat-app
+  ports:
+    - "3005:3005"
+  links:
+    - mongo:mongo
+
+mongo:
+  restart: always
+  image: mongo:3.0
