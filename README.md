@@ -1,5 +1,5 @@
 # mac-chat-api-docker
-It's a autocontained Slack service from Devslopes repo [mac-chat-api](https://github.com/devslopes/mac-chat-api) to deploy anywhere is supported docker.
+It's a dockerized Slack service from Devslopes repo [mac-chat-api](https://github.com/devslopes/mac-chat-api) to deploy anywhere is supported docker.
 
 This docker services also include configuration to run MongoDB.
 
@@ -18,8 +18,8 @@ docker-compose build
 docker-compose up
 
 # To stop services
-docker-compose up
+docker-compose down
 
 ```
 
-Now go to your favorite browser and type `http://localhost:3005/`
+Now go to your favorite browser and type `http://localhost:3005/` you'll see the service running.
